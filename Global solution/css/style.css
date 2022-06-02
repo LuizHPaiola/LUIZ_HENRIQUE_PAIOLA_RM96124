@@ -1,0 +1,120 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.tituloPag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 15rem;
+}
+
+.texto{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(64, 161, 129);
+}
+
+.cabecalho{
+    background-image: url("../img/header_bg.jpg"); 
+    color: #fff;
+}
+
+
+.menu{
+    background-color: rgb(43, 66, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1rem; 
+}
+
+.carrinho{
+    margin-right: 2rem;
+    color: #fff;
+}
+.menu ul a{
+    color: #fff;
+    
+}
+.menu ul{
+    display: flex;
+    column-gap: normal;
+    gap: 2rem;
+    padding: 0 1rem 0;
+}
+
+.corpo{
+    display: flex;
+    column-gap: normal;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+#btnEnviar{
+    width: 5rem;
+    font-size: 0.6rem;
+    border-radius: 0.35rem;
+    margin: 0.5rem 0 0;
+    color: #fff;
+    background-color: rgb(81, 174, 250);
+}
+.servicos{
+    display: flex;
+    flex-direction: column;
+    column-gap: normal;
+    gap: 1rem;
+    font-size: 0.8rem;
+    width: 70%;
+}
+.servicos div{
+    background-color: #fff;
+    padding: 0 1rem 1rem;
+}
+.servicos div img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prop{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.prop div{
+    background-color: #fff;
+    padding: 0 1rem 1rem;
+    font-size: 0.8rem;
+}
+.prop div img{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logoId{
+    width: 10rem;
+    margin: auto;
+}
+
+.rodape{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
